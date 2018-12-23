@@ -27,27 +27,27 @@ For the purposes of this project, we define the Internet as the test data in thi
 json
 {
   "pages": [
-    {
-      "address":"http://foo.bar.com/p1",
-      "links": ["http://foo.bar.com/p2", "http://foo.bar.com/p3", "http://foo.bar.com/p4"]
-    },
-    {
-      "address":"http://foo.bar.com/p2",
-      "links": ["http://foo.bar.com/p2", "http://foo.bar.com/p4"]
-    },
-    {
-      "address":"http://foo.bar.com/p4",
-      "links": ["http://foo.bar.com/p5", "http://foo.bar.com/p1", "http://foo.bar.com/p6"]
-    },
-    {
-      "address":"http://foo.bar.com/p5",
-      "links": []
-    },
-    {
-      "address":"http://foo.bar.com/p6",
-      "links": ["http://foo.bar.com/p7", "http://foo.bar.com/p4", "http://foo.bar.com/p5"]
-    }
-  ]
+            {
+                "address": "http://foo.bar.com/p1",
+                "links": ["http://foo.bar.com/p2", "http://foo.bar.com/p3", "http://foo.bar.com/p4"]
+            },
+            {
+                "address": "http://foo.bar.com/p2",
+                "links": ["http://foo.bar.com/p2", "http://foo.bar.com/p4"]
+            },
+            {
+                "address": "http://foo.bar.com/p4",
+                "links": ["http://foo.bar.com/p5", "http://foo.bar.com/p1", "http://foo.bar.com/p6"]
+            },
+            {
+                "address": "http://foo.bar.com/p5",
+                "links": []
+            },
+            {
+                "address": "http://foo.bar.com/p6",
+                "links": ["http://foo.bar.com/p7", "http://foo.bar.com/p4", "http://foo.bar.com/p5"]
+            }
+        ]
 }
  
 
